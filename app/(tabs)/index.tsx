@@ -38,7 +38,7 @@ export default function HomeScreen() {
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 2: Learn</ThemedText>
         <ThemedText>
-            Get access to fun and engage educational content!
+            Get access to fun and engaging educational content!
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -67,10 +67,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 250,
+    width: 450,
     bottom: 0,
     left: 0,
-    position: 'absolute',
+    position: 'relative',
   },
 });
