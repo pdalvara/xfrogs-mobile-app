@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "MyCameraApp",
+    "name": "Rananova",
+    "displayName": "Rananova",
     "slug": "MyCameraApp",
     "icon": "./assets/images/new-icon.png",
     "version": "1.0.0",
@@ -23,8 +24,11 @@
       },
       "permissions": [
         "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "package": "com.palvi11.MyCameraApp"
     },
     "web": {
       "bundler": "metro",
